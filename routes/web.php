@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/loginmoca', function () {
+    return view('loginmoca');
+});
