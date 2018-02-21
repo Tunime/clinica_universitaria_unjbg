@@ -12,7 +12,7 @@
   </head>
   <body>
     <section class="container-fluid">
-        <form>
+        <form action="/loginmoca" method="post">
             <div class="form-group">
                 <label for="exampleInputEmail1">El nick</label>
                 <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">

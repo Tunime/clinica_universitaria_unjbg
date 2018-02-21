@@ -17,3 +17,4 @@ Route::get('/', function () {
 Route::get('/loginmoca', function () {
     return view('loginmoca');
 });
+Route::post('/loginmoca','UsuarioController@loginon');
